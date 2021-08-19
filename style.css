@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+body {
+	background: whitesmoke;
+	font-family: 'Merriweather', serif;
+}
+
+a {
+	cursor: pointer;
+}
+
+.error,
+.success {
+	color: white;
+	padding: 5px;
+	margin: 5px 0 15px 0;
+}
+.success {
+	background: green;
+}
+.error {
+	background: red;
+}
